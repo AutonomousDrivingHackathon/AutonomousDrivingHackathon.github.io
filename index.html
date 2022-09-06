@@ -1,26 +1,61 @@
 <html>
 <head>
 <style>
+body {
+  background-image: url('combined.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 h1 {text-align: center;}
 h2 {text-align: center;}
 h3 {text-align: center;}
-p {text-align: center;}
+
+
+
+.info {
+  text-align: center;
+  font-size: 15px;
+}
+
+.competition {
+  text-align: center;
+  font-size: 16px;
+  margin: 60px;
+}
+
+
 </style>
 </head>
 <body>
 
-<h1 style="color:Tomato;">Online Autonomous Driving Hackathon</h1>
-<h3><a href="https://carleton.ca/trustcav/">Hosted by TrustCAV at Carleton University</a></h3>
+<h1 style="color:#00008B; font-size:65px; font-style: italic;">Online Autonomous Driving Hackathon</h1>
 
-<h2>About this event: </h2>
 
-<h3>Prices (tentative): $1,000 for 1st price, $250 X 4 for 2nd prices</h3>
+<div class="info">
+	<h1>About this event: </h2>
+	
+	<h3><a href="https://carleton.ca/trustcav/">Hosted by TrustCAV at Carleton University</a></h3>
 
-<h3>Date: To be announced</h3>
+	<h3>Prices (tentative): $1,000 for 1st price, $250 X 4 for 2nd prices</h3>
 
-<h3 style="color:blue;"><a href="https://carleton.ca/trustcav/">Join at Discord server : https://carleton.ca/trustcav/ </a></h3>
+	<h3>Date: To be announced</h3>
 
-<h3 style="color:blue;">Contact: Mengyao Wu (mengyaowu@cmail.carleton.ca)</h3>
+	<h3 style="color:blue;"><a href="https://discord.gg/w868bUUdXb">Join at Discord server : https://discord.gg/w868bUUdXb </a></h3>
 
+	<h3 style="color:blue;">Contact: Mengyao Wu (mengyaowu@cmail.carleton.ca)</h3>
+</div>
+
+<div class="competition">
+	<h3>Simulation environment and available resources: </h2>
+	<p>We will be using a highway driving simulator which can be found at:<a href="https://github.com/eleurent/highway-env"> https://github.com/eleurent/highway-env</a>   .</p>
+	<p>The simulator is designed for reinforcement learning. </p>
+	<p>However, for this competition, you can use any machine learning techniques or simply write "if--else--" rules, or a combination of any approaches.</p>
+	<p>We will evaluate submitted code in an "agent-environment interactions" manner. More details will be announced regarding the submision format.</p>
+	<p>We will provide simple tutorials to help you get started. This includes the following:</p>
+		<p>1. How to setup the simulator environment.</p>
+		<p>2. Write a basic deep Q-learning (reinforcement learning) agent.</p>
+		<p>3. Basic ideas to make modifications of a standard deep Q-learning agent. This way, you can customize your own agent for competition.</p>
+		<p>4. More on demand.</p>
+</div>
 </body>
 </html>
